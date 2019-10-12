@@ -13,6 +13,7 @@ Anjuta IDE was originally used to create the codes but is not necessary for comp
 
 To build the server, cd to the axis_remote_server directory on your local computer. Execute the typical automake command sequence:
 
+chmod +x ./configure
 ./configure
 make
 sudo make install
@@ -21,6 +22,7 @@ The install copies axis_remote_server to /usr/local/bin
 
 To build the client, cd to the axis_remote_client directory on your local computer. Execute the typical automake command sequence:
 
+chmod +x ./configure
 ./configure
 make
 sudo make install
